@@ -9,6 +9,7 @@
   "author": "Andrej Minic",
   "license": "MIT",
   "dependencies": {
+    "lightbox2": "^2.11.1",
     "node-sass": "^4.12.0"
   }
 }

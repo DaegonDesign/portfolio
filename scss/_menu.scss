@@ -62,7 +62,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    opacity: 0.75;
+    opacity: 0.9;
     background: $overlay-color;
     list-style: none;
     transform: translate3d(0, -100%, 0);
@@ -97,6 +97,7 @@
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;
+    text-decoration: none;
     &.show {
       transform: translate3d(0, 0, 0);
     }
