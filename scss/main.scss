@@ -71,19 +71,18 @@ main {
   &#home {
     overflow: hidden;
     h1 {
-      margin-top: 14vh; //This controls how far down the A.M.G-I-D large text is from the top of the page
+      margin-top: 10vh; //This controls how far down the A.M.G-I-D large text is from the top of the page
     }
   }
 }
 
 .about-info {
   display: grid;
-  margin-top: 2ref;
+  margin-top: 65px;
   grid-gap: 30px; //spacing between areas on about me page
   grid-template-areas:
     "bioimage bio bio"
-    "desc1 desc2 desc3";
-  grid-template-columns: repeat(3, 1fr);
+    "personal personal personal";
 
   .bio-image {
     grid-area: bioimage;
@@ -94,20 +93,15 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    background: rgba(lighten($primary-color, 10), 0.4);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
   }
 
-  .desc1 {
-    grid-area: desc1;
-  }
-  .desc2 {
-    grid-area: desc2;
-  }
-  .desc3 {
-    grid-area: desc3;
-  }
-
-  .desc {
+  .personal {
+    font-size: 1.1rem;
+    grid-area: personal;
     background: rgba(lighten($primary-color, 10), 0.4);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
@@ -197,18 +191,40 @@ section {
 
 //back
 .button {
+  background: rgba(lighten($primary-color, 2), 0.6);
+  border-bottom: $secondary-color 5px solid;
+  padding: 0.5rem 1rem;
+  transform: translate(-50%, -50%);
   position: absolute;
-  top: 0.7rem;
-  left: 0;
-  width: 100%;
-  background: none;
-  border: none;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 16px;
-  opacity: 0.8;
+  opacity: 0.6;
+  top: 3rem;
+  left: 50%;
   cursor: pointer;
+  display: inline-block;
+  .button_text {
+    opacity: 0.8;
+    font-size: 16px;
+    &:hover {
+      color: $secondary-color; //this is the color of the icons when you hover over them
+      @include easeOut();
+    }
+  }
+}
+
+//homepage button to the gallery
+.gallery_button {
+  opacity: 0.4;
+  font-size: 1.6rem;
+  margin-top: 14rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: rgba(lighten($primary-color, 2), 0.6);
+  border-left: $secondary-color 5px solid;
+
+  &:hover {
+    color: $secondary-color; //this is the color of the icons when you hover over them
+    @include easeOut();
+  }
 }
 
 .button:hover {

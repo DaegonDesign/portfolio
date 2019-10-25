@@ -22,6 +22,11 @@
     }
   }
 
+  .gallery_button {
+    align-items: center;
+    text-align: center;
+  }
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -56,9 +61,7 @@
     grid-template-areas:
       "bioimage"
       "bio"
-      "desc1"
-      "desc2"
-      "desc3";
+      "personal";
     grid-template-columns: 1fr;
   }
   grid-template-columns: repeat(2, 1fr);
@@ -78,5 +81,10 @@
   }
   .projects {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+
+  .gallery_button {
+    align-items: center;
+    text-align: center;
   }
 }
