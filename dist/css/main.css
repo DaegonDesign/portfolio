@@ -1,13 +1,11 @@
 @font-face {
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   src: url("/dist/fonts/azonix-webfont.eot");
-  src: 
-  url("/dist/font/azonix-webfont.woff") format("woff"),
-  url("/dist/font/azonix-webfont.otf") format("opentype"),
-  url("/dist/font/azonix-webfont.svg#filename") format("svg");
+  src: url("/dist/font/azonix-webfont.woff") format("woff"),
+    url("/dist/font/azonix-webfont.otf") format("opentype"),
+    url("/dist/font/azonix-webfont.svg#filename") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 #ab-img {
@@ -172,7 +170,7 @@ h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 4.6rem;
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   font-weight: 100;
 }
 h1.sm-heading,
@@ -183,14 +181,14 @@ h3.sm-heading {
   padding: 0.5rem 1rem;
   background: rgba(73, 73, 73, 0.3);
   display: inline-block;
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   font-weight: 100;
 }
 h2.portfolio-heading {
   font-size: 2rem;
   display: table;
   margin: 0 auto;
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   opacity: 0.6;
   display: inline-block;
   transform: translate(-50%, -50%);
@@ -406,7 +404,7 @@ a {
   left: 50%;
   cursor: pointer;
   display: inline-block;
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   font-weight: 100;
 }
 .portfolio_button {
@@ -419,7 +417,7 @@ a {
   left: 50%;
   cursor: pointer;
   display: inline-block;
-  font-family: 'azonix-webfont';
+  font-family: "azonix-webfont";
   font-weight: 100;
 }
 .portfolio_button .button_text {
