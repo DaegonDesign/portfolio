@@ -1,7 +1,7 @@
 @font-face {
   font-family: "azonix-webfont";
 
-  src: url("dist/font/azonix-webfont.woff");
+  src: url("/dist/font/azonix-webfont.woff");
 
   font-weight: normal;
   font-style: normal;
