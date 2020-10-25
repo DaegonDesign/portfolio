@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "azonix-webfont";
-  src: url("/dist/fonts/azonix-webfont.eot");
+  src: url("/dist/font/azonix-webfont.eot");
   src: url("/dist/font/azonix-webfont.woff") format("woff"),
     url("/dist/font/azonix-webfont.otf") format("opentype"),
     url("/dist/font/azonix-webfont.svg#filename") format("svg");
